@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Person from '../src/components/Person';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const MIN_TEMPERATURE = -20;
+const MAX_TEMPERATURE = 40;
+const MIN_HEART = 80;
+const MAX_HEART = 180;
+const MIN_STEPS = 0;
+const MAX_STEPS = 50000;
+
+class App extends React.Component {
+  render() {
+    return(
+      <div className='container-fluid'>
+        <Person className= "box"  className= "col-md-2" className= "col-6"/>
+      </div>
+    );
+  }
 }
 
 export default App;

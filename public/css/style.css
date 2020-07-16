@@ -1,3 +1,14 @@
-div{
-    background-color:#AAA;
+.box{
+    background-color:#CCC;
+    height: 190px;
+    padding: 10px;
+    text-align: center;
 }
+
+.boxGrey{
+    background-color:#AAA;
+    height: 190px;
+    padding: 10px;
+    text-align: center;  
+}
+

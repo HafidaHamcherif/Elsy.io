@@ -1,16 +1,20 @@
 import React from 'react';
 
+
 class Person extends React.Component {
     render () {
         return(
-            <div style={{
+            <div className= "box col-md-2 col-6"> 
+                <span className="material-icons"             
+                style={{
                 fontSize: 100,
                 color: 'black'
-            }}>            
-                <span className="material-icons">directions_walk</span>    
+            }}>directions_walk</span>    
             </div>
         );
     }
 }
 
 export default Person;
+
+/* <Icon name={"direction_wa"} color='black'/> */
